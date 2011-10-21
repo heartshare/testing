@@ -1,6 +1,6 @@
 ## SNMP Agent
 
-```conf
+```perl
 # $Id: snmpd.conf 373 2010-02-16 13:31:41Z kai $
 ...
 exec .1.3.6.1.4.1.7460.1.11 iptypestats /usr/xs4all/sbin/iptypestats
