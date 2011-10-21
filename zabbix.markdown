@@ -1,7 +1,6 @@
-
 ### Zabbix
 
-```shell
+```bash
 # Mysql "plugin"
 UserParameter=mysql.ping,mysqladmin -uroot ping|grep alive|wc -l
 UserParameter=mysql.uptime,mysqladmin -uroot status|cut -f2 -d":"|cut -f1 -d"T"
